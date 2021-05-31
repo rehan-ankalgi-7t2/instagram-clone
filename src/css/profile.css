@@ -1,0 +1,40 @@
+.profile {
+    padding: 0px 150px;
+}
+
+.profile__header {
+    min-width: 100%;
+    height: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.profile__img {
+    /* flex: 3; */
+    width: 240px;
+    height: 240px;
+    background: linear-gradient(45deg, #8a3ab9, #bc2a8d, #e95950, #fbad50, #fccc63);
+    border: none !important;
+    border-radius: 200px;
+}
+
+
+.profile__info {
+    /* flex: 7; */
+    padding-left: 80px;
+}
+
+.profile__insight {
+    display: flex;
+    width: 320px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.profile__bio {
+    font-size: 14px;
+    line-height: 1.6;
+    width: 480px;
+}
